@@ -1,0 +1,107 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                width="760" height="239">
+                
+                <g>
+                   <rect x="50" y="65"
+            width="139.2" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>const num1 = 8</title>
+            <text x="65" y="85"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="85">const num1 = 8</tspan>
+            </text>
+                   
+                   
+                </g><g>
+            <rect x="80" y="128.5"
+            width="138" height="30"
+            rx="3" ry="3"
+            style="fill:#ce93d8; stroke:#444; stroke-width:1" />                
+            <polygon points="50,143.5 80,113.5 110,143.5 80,173.5"
+            style="fill:#ce93d8; stroke:#444; stroke-width:1" />
+            <title>(num1 = 8)</title>
+            <text x="125" y="148.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="125" y="148.5">(num1 = 8)</tspan>
+            </text>
+            
+            <text x="72.2" y="148.5"
+        font-family="monospace" font-size="13" fill="#222">if</text> <text x="87.8" y="175.45"
+        font-family="monospace" font-size="13" fill="#222">+</text> <text x="221.9" y="141.55"
+        font-family="monospace" font-size="13" fill="#222">-</text>
+        </g>
+                <g>
+                   <rect x="100" y="183.5"
+            width="279.6" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>console.log(&apos;num1 è uguale a 8&apos;)</title>
+            <text x="115" y="203.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="115" y="203.5">console.log(&apos;num1 è uguale a 8&apos;)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="439.6" y="183.5"
+            width="295.2" height="30"
+            rx="2" ry="2"
+            style="fill:#C5E1A5; stroke:#444; stroke-width:1" />
+                   <title>console.log(&apos;num1 è diverso da 8&apos;)</title>
+            <text x="454.6" y="203.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="454.6" y="203.5">console.log(&apos;num1 è diverso da 8&apos;)</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+               <rect x="25" y="13.75"
+            width="216.6" height="24"
+            style="fill:#fff59d; stroke:#444; stroke-width:1" />
+               <circle cx="25" cy="25" r="15"
+        style="fill:#fff59d; stroke:#444; stroke-width:1" />
+               <title>Program: source module</title>
+            <text x="55" y="30"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">Program: source module</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 76 Q25 80
+                29 80
+                L42 80 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 77 L50, 80 L42, 83 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 139.5 Q25 143.5
+                29 143.5
+                L42 143.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 140.5 L50, 143.5 L42, 146.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M80, 173.5 L80 194.5 Q80 198.5
+                84 198.5
+                L92 198.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M92, 195.5 L100, 198.5 L92, 201.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M218, 143.5 L415.6 143.5  Q419.6 143.5
+                419.6 147.5
+                L419.6 190.5 Q419.6 198.5
+                423.6 198.5
+                L431.6 198.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M431.6, 195.5 L439.6, 198.5 L431.6, 201.5 Z" 
+        fill="#333" />
+            </g>
+            </svg>
