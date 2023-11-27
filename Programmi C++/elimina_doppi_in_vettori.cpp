@@ -1,6 +1,4 @@
-// #include <iostream>
-#include <stdio.h>
-// #define Ntot 10
+#include <iostream>
 #define N 5
 
 int main()
@@ -8,7 +6,6 @@ int main()
 
     int vet1[N];
     int vet2[N];
-    // int vet_totale[Ntot];
 
     int i, y;
 
@@ -19,14 +16,12 @@ int main()
         scanf("%d", &numero1);
 
         vet1[i] = numero1;
-        // vet_totale[i] = numero1;
 
         int numero2;
         printf("inserisci elemento del secondo vettore \n");
         scanf("%d", &numero2);
 
         vet2[i] = numero2;
-        // vet_totale[i+N] = numero2;
     }
 
     for (i = 0; i < N; i++)
