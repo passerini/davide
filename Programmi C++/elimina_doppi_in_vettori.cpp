@@ -3,25 +3,18 @@
 
 int main()
 {
-
     int vet1[N];
     int vet2[N];
-
     int i, y;
 
     for (i = 0; i < N; i++)
     {
-        int numero1;
         printf("inserisci elemento del primo vettore \n");
-        scanf("%d", &numero1);
+        scanf("%d", &vet1[i]);
 
-        vet1[i] = numero1;
-
-        int numero2;
         printf("inserisci elemento del secondo vettore \n");
-        scanf("%d", &numero2);
+        scanf("%d", &vet2[i]);
 
-        vet2[i] = numero2;
     }
 
     for (i = 0; i < N; i++)

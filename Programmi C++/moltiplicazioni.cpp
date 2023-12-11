@@ -5,32 +5,22 @@
 
 int main() {
  
-	int somma=0, N1, N2, scambio;
+	int risultato=0, N1, N2, scambio;
 
-	printf("dichiara il primo numero");
+	printf("\n dichiara il primo numero ");
  	scanf("%d", &N1);
 	  
-	printf("dichiara il secondo numero");
+	printf("\ndichiara il secondo numero ");
 	scanf("%d", &N2);
 
-
-	if (N2>N1){
-
-		scambio = N1;
-
-		N1 = N2;
-
-		N2 = scambio;
-      
-	}
  
 	for ( int i = 0; i < N2;  i++){
 
-		somma += N1;
+		risultato += N1;
 	}
 
 
-	printf("la somma è: %d ", somma);
+	printf("\nil risultato della moltiplicazione è: %d ", risultato);
 	
 	
 	
