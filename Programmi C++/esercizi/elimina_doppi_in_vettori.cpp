@@ -3,11 +3,14 @@
 
 int main()
 {
-
     int vet1[N];
     int vet2[N];
+<<<<<<< HEAD:Programmi C++/elimina_doppi_in_vettori.cpp
 
     int i,y;
+=======
+    int i, y;
+>>>>>>> 4bd6aee7147c4cf1f96ed8628288941970df9f82:Programmi C++/esercizi/elimina_doppi_in_vettori.cpp
 
     for (i = 0; i < N; i++)
     {
