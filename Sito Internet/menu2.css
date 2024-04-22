@@ -1,0 +1,46 @@
+body {
+	/* background-color: #0116CB; */
+    background-image: url('images/sfondo.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover; */
+}
+
+.container-giallo {
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    top: 140px;
+    /* width: 80%; */
+    height: 750px;
+    background: yellow;
+    border: 5px solid #0000006b;
+    box-sizing: border-box;
+
+    background-image: url('images/windows-11-dark-mode-blue-stock-official-3840x2400-5630.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.container-verde {
+    position: relative;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 70%;
+    background: rgba(0, 128, 0, 0.671);
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+
+.container-blu {
+    /* width: 90%; */
+    padding: 30px;
+    margin: 0 0.5%;
+    height: 70%;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    background: rgba(18, 2, 247, 0.342);
+}
+

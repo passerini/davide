@@ -1,0 +1,23 @@
+.navbar-nav {
+    float: left;
+    margin-left: 70px;
+}
+
+body {
+	/* background-color: #0116CB; */
+    background-image: url('images/windows-11-dark-mode-blue-stock-official-3840x2400-5630.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  }
+
+fieldset{
+	background-color:rgba(4, 4, 4, 0.8);
+	padding: 5px 10px; 
+	width:40%; 
+	border-radius:20px;
+}
+
+fieldset:first-child{
+	margin-right: 124px;
+}
