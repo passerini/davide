@@ -33,55 +33,51 @@
 #include <stdbool.h>
 #include <string.h>
 
-void inserisci_parametri(){
-    //  - il costo del materiale
-    //  - il numero di giorni di lavoro previsti 
-    //  - il numero di operai da dedicarvi
-    // Una giornata di un operaio costa 120 Euro. 
-
-
-};
-
-void stampa_preventivo(){
+void stampa_preventivo(float costo_materiale , int numero_operai, int giorni_previsti ){
     char stringa_nome[30] = "Impresa Massacan";
     char stringa_indirizzo[80] = "via Roma 121";
     char stringa_citta[30] = "Salerano sul Lambro (LO)";
 
-    char prodotto[] = "Computer";
-    float prezzo_unitario = 999.99;
-    int quantita = 3;
+    float totale_operai = numero_operai * giorni_previsti * 120;
+    float subtotale1 = totale_operai + costo_materiale;
+    float assicurazione = subtotale1 * 4 /100;
+    float subtotale2 = subtotale1 + assicurazione;
+    float iva = subtotale2 * 22 /100;
+    float conto_totale = subtotale2 + iva;
 
-    float totale = prezzo_unitario * quantita;
-
-
-   // Stampa del preventivo con layout
+    printf("\n\n-------------------------------------------------------------------------------\n");
     printf("Preventivo:\n\n");
     printf("%s\n", stringa_nome);
     printf("%s\n", stringa_indirizzo);
     printf("%s\n", stringa_citta);
+    printf("-------------------------\n");
+    printf("Costo materiali:                                            $%.2f\n", costo_materiale);
+    printf("Mano d'opera %d operai per %d giorni                         $%.2f\n",numero_operai, giorni_previsti,totale_operai);
+    printf("                                                         --------------\n");
+    printf("                                            SubTotale       $%.2f\n\n\n", subtotale1);
+    printf("Assicurazione (4%%)                                          $%.2f\n", assicurazione);
+    printf("                                                         --------------\n");
+    printf("                                            SubTotale       $%.2f\n\n\n", subtotale2);
+    printf("IVA (20%%)                                                   $%.2f\n", iva);
+    printf("                                                         --------------\n");
+    printf("Totale:                                                     $%.2f\n", conto_totale);
     printf("\n\n-------------------------------------------------------------------------------\n");
-    printf("Costo materiali:                                            $%.2f\n", prezzo_unitario);
-    printf("Mano d'opera 3 operai per 10 giorni                         $%.2f\n", prezzo_unitario);
-    printf("                                                         --------------\n");
-    printf("                                            SubTotale       $%.2f\n\n\n", prezzo_unitario);
-    printf("Assicurazione (4%%)                                          $%.2f\n", prezzo_unitario);
-    printf("                                                         --------------\n");
-    printf("                                            SubTotale       $%.2f\n\n\n", prezzo_unitario);
-    printf("IVA (20%%)                                                   $%.2f\n", prezzo_unitario);
-    printf("                                                         --------------\n");
-    printf("Totale:                                                     $%.2f\n", totale);
 };
 
 int main(){
+    float costo_materiale;
+    int giorni_previsti, numero_operai,costo_operai;
 
+    printf("Inserisci costo materiale: ");
+	scanf("%f", &costo_materiale);
 
-    int costo_materiali = 1500;
+    printf("Inserisci quanti giorni di lavoro sono previsti: ");
+	scanf("%d", &giorni_previsti);
 
-	printf("\nPREVENTIVO LAVORI \n\n");
+    printf("Inserisci il numero di operai da dedicarvi: ");
+	scanf("%d", &numero_operai);
 
-    inserisci_parametri();
-    stampa_preventivo();
- 
+    stampa_preventivo(costo_materiale , numero_operai, giorni_previsti );
 
 	return 0;
 }
