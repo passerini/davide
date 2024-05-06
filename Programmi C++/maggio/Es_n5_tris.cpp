@@ -13,11 +13,17 @@ void inizializza_matrice(char matrice[3][3]){
 }
 
 void disegna_matrice(char matrice[3][3]){
+	printf("   _________\n");
 	int i;
 	for (i = 0; i < 3; ++i){
-		printf("%c %c %c\n", matrice[i][0], matrice[i][1], matrice[i][2]);
+		printf("  |");
+		for (int j = 0; j < 3; j++)
+		{
+			printf(" %c ", matrice[i][j]);
+		}
+		printf("|\n");
 	}
-	printf("----------------------\n");
+	printf("   ---------\n");
 }
 
 char controlla_chi_tocca(char giocatore){

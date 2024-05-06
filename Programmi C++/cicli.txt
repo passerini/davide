@@ -1,0 +1,16 @@
+CONDIZIONI
+- IF
+
+CICLI
+- FOR
+- WHILE
+
+
+
+PRINTF:
+    printf("Numero intero: %d", numero);
+    printf("Valore float: %f", valore);
+    printf("Carattere: %c", carattere);
+    printf("Stringa: %s", stringa);
+    printf("Prezzo unitario: %.2f EUR\n", prezzo_unitario); ( Prezzo unitario: 800.00 EUR )
+

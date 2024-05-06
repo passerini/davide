@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.erd": "json",
+        "*.vuerd": "json",
+        "*.cpp": "c",
+        "__locale": "c"
+    }
+}
