@@ -7,7 +7,7 @@
 
 int main(){
 
-	int numero_righe,numero;
+	int numero_righe,numero = 0;
 
 	printf("\nTRIANGOLO DI FLOYD \n");
     
@@ -17,7 +17,7 @@ int main(){
     int numero_temporaneo = numero;
     for (int i = 0; i < numero_righe; i++)
     {
-        for (size_t i = 0; i < numero; i++)
+        for (int i = 0; i < numero; i++)
         {
             printf("%d ",numero_temporaneo);
             numero_temporaneo = numero_temporaneo + 1;

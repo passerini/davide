@@ -3,6 +3,7 @@
         "*.erd": "json",
         "*.vuerd": "json",
         "*.cpp": "c",
-        "__locale": "c"
+        "__locale": "c",
+        "string.h": "c"
     }
 }
