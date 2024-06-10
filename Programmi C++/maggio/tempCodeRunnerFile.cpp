@@ -1,1 +1,1 @@
-%s
+#include <stdbool.h>
