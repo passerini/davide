@@ -1,0 +1,24 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "description": "Stampa un saluto",
+            "function": "stampaSaluto"
+        },
+        {
+            "id": 2,
+            "description": "Mostra data e ora",
+            "function": "mostraDataEOra"
+        },
+        {
+            "id": 3,
+            "description": "Calcola somma di due numeri",
+            "function": "calcolaSomma"
+        },
+        {
+            "id": 4,
+            "description": "Esci",
+            "function": "esci"
+        }
+    ]
+}
