@@ -9,3 +9,4 @@ Programmi C++/.DS_Store
 *.exe
 
 *.vscode*
+.vscode/c_cpp_properties.json
