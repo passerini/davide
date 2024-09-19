@@ -1,0 +1,8 @@
+{
+    "squadre": [
+        {"nome": "Squadra A"},
+        {"nome": "Squadra B"},
+        {"nome": "Squadra C"},
+        {"nome": "Squadra D"}
+    ]
+}

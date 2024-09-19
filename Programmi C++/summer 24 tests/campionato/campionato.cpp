@@ -13,22 +13,23 @@ typedef struct {
     int goalSubiti;
 } Squadra;
 
-void generaRisultato(Squadra *s1, Squadra *s2) {
+void generaRisultato(Squadra *s1, Squadra *s2) {  // IMPORTANTE: l'asterisco permette di aggiornare i campi della struttura Squadra (come punti, goalFatti, e goalSubiti) direttamente, senza bisogno di restituire la struttura modificata
     int goalS1 = rand() % 5; // Genera gol casuali per la squadra 1
     int goalS2 = rand() % 5; // Genera gol casuali per la squadra 2
 
-    s1->goalFatti += goalS1;
+    // Aumenta il numero di gol delle squadre
+    s1->goalFatti += goalS1; 
     s1->goalSubiti += goalS2;
     s2->goalFatti += goalS2;
     s2->goalSubiti += goalS1;
 
     if (goalS1 > goalS2) {
-        s1->punti += 3; // Vittoria per s1
+        s1->punti += 3; // Vittoria per s1 . Aumenta il numero di punti della squadra "s1" di 3
     } else if (goalS1 < goalS2) {
-        s2->punti += 3; // Vittoria per s2
+        s2->punti += 3; // Vittoria per s2. Aumenta il numero di punti della squadra "s2" di 3
     } else {
-        s1->punti += 1; // Pareggio
-        s2->punti += 1; // Pareggio
+        s1->punti += 1; // Pareggio. Aumenta il numero di punti della squadra "s1" di 1
+        s2->punti += 1; // Pareggio. Aumenta il numero di punti della squadra "s2" di 1
     }
 }
 
@@ -43,10 +44,10 @@ int main() {
     srand(time(NULL));
 
     Squadra squadre[NUM_SQUADRE] = {
-        {"Squadra A", 0, 0, 0},
-        {"Squadra B", 0, 0, 0},
-        {"Squadra C", 0, 0, 0},
-        {"Squadra D", 0, 0, 0}
+        {"MILAN", 0, 0, 0},
+        {"INTER", 0, 0, 0},
+        {"JUVENTUS", 0, 0, 0},
+        {"ROMA", 0, 0, 0}
     };
 
     // Calendario delle partite (indici delle squadre)
