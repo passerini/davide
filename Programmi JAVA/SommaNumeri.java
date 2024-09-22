@@ -7,7 +7,7 @@ public class SommaNumeri {
        
         input = new Scanner(System.in);
 
-        // Chiede il primo numero reale
+        // Chiede il primo numero
         System.out.print("Inserisci il primo numero reale: ");
         double numero1 = input.nextDouble();
 
