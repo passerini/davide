@@ -20,6 +20,7 @@ public class SommaNumeri {
 
         // Visualizza la somma
         System.out.println("La somma dei due numeri è: " + somma);
+        
 
         // Chiude lo scanner
         input.close();

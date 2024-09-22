@@ -6,6 +6,13 @@
       "name": "SommaNumeri",
       "request": "launch",
       "mainClass": "SommaNumeri",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "SommaNumeri",
+      "request": "launch",
+      "mainClass": "SommaNumeri",
       "projectName": "davide_14b3dc8"
     },
     {
