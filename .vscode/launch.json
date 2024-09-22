@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "SommaNumeri",
+      "request": "launch",
+      "mainClass": "SommaNumeri",
+      "projectName": "davide_14b3dc8"
+    },
+    {
       "name": "(lldb) Attach",
       "type": "cppdbg",
       "request": "attach",

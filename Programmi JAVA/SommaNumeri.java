@@ -3,13 +3,9 @@ import java.util.Scanner;
 public class SommaNumeri {
     public static void main(String[] args) {
 
-        Scanner input = null;
-        // Crea un'istanza di Scanner per leggere l'input da tastiera
-        try {
-            input = new Scanner(System.in);
-        } catch (Exception e) {
-
-        }
+        Scanner input ;  //Scanner per leggere l'input da tastiera
+       
+        input = new Scanner(System.in);
 
         // Chiede il primo numero reale
         System.out.print("Inserisci il primo numero reale: ");
