@@ -3,6 +3,125 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Crescente3Num",
+      "request": "launch",
+      "mainClass": "Crescente3Num",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "NumMaggiore",
+      "request": "launch",
+      "mainClass": "NumMaggiore",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "ScontoProgressivo",
+      "request": "launch",
+      "mainClass": "ScontoProgressivo",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "NumCrescente",
+      "request": "launch",
+      "mainClass": "NumCrescente",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "PariDispari",
+      "request": "launch",
+      "mainClass": "PariDispari",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "NumPariDispari",
+      "request": "launch",
+      "mainClass": "NumPariDispari",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "Sconto",
+      "request": "launch",
+      "mainClass": "Sconto",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "OreMinutiSecondi",
+      "request": "launch",
+      "mainClass": "OreMinutiSecondi",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "EtaMedia",
+      "request": "launch",
+      "mainClass": "EtaMedia",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "CirconferenzaCerchio",
+      "request": "launch",
+      "mainClass": "CirconferenzaCerchio",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "LatoRettangolo",
+      "request": "launch",
+      "mainClass": "LatoRettangolo",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "LatoQuadrato",
+      "request": "launch",
+      "mainClass": "LatoQuadrato",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "SottrazioneInteri",
+      "request": "launch",
+      "mainClass": "SottrazioneInteri",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "SommaReali",
+      "request": "launch",
+      "mainClass": "SommaReali",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "SommaNum",
+      "request": "launch",
+      "mainClass": "SommaNum",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "ProgrammaPippo",
+      "request": "launch",
+      "mainClass": "ProgrammaPippo",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "Somma",
+      "request": "launch",
+      "mainClass": "Somma",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
       "name": "SommaNumeri",
       "request": "launch",
       "mainClass": "SommaNumeri",

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value="4ID_Tonani_cerchio"/>
+        <attribute name="authors" value="13"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-26 12:34:00 "/>
+        <attribute name="created" value="MTM7UEMxM0lORk9STUFUSUNBOzIwMjQtMDktMjY7IjEyOjE5OjI3ICI7MjM2Mg=="/>
+        <attribute name="edited" value="MTM7UEMxM0lORk9STUFUSUNBOzIwMjQtMDktMjY7IjEyOjIyOjMxICI7MTsyNDU5"/>
+        <attribute name="edited" value="emlvcGE7U1VSRkFDRTsyMDI0LTA5LTI2OyIxMjozNDowMCAiOzE7MjM2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="PIGRECO" type="Real" array="False" size=""/>
+            <assign variable="PIGRECO" expression="3.141"/>
+            <declare name="raggio" type="Real" array="False" size=""/>
+            <declare name="perimetro" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <output expression="&quot;inserire il raggio: &quot;" newline="True"/>
+            <input variable="raggio"/>
+            <assign variable="perimetro" expression="2 * PIGRECO * raggio"/>
+            <assign variable="area" expression="PIGRECO * (raggio * raggio)"/>
+            <output expression="&quot;il perimetro &#232;: &quot; &amp;perimetro" newline="True"/>
+            <output expression="&quot;l'area &#232;: &quot; &amp;area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

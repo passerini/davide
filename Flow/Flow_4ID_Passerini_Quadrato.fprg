@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ziopa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-26 11:49:13 "/>
+        <attribute name="created" value="emlvcGE7U1VSRkFDRTsyMDI0LTA5LTI2OyIxMTozNjo0MiAiOzIyNjU="/>
+        <attribute name="edited" value="emlvcGE7U1VSRkFDRTsyMDI0LTA5LTI2OyIxMTo0OToxMyAiOzE7MjM3NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lato" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="perimetro" type="Real" array="False" size=""/>
+            <assign variable="lato" expression="0"/>
+            <assign variable="perimetro" expression="0"/>
+            <assign variable="area" expression="0"/>
+            <output expression="&quot;inserire il lato del quadrato &quot;" newline="True"/>
+            <input variable="lato"/>
+            <assign variable="area" expression="lato * lato"/>
+            <output expression="&quot;la misura dell'area e' &quot; &amp;area" newline="True"/>
+            <assign variable="perimetro" expression="lato * 4"/>
+            <output expression="&quot;la misura del perimetro e' &quot; &amp;perimetro" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

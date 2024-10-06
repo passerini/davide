@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ziopa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-26 11:54:20 "/>
+        <attribute name="created" value="emlvcGE7U1VSRkFDRTsyMDI0LTA5LTI2OyIxMTo1Mzo0NSAiOzIyNjc="/>
+        <attribute name="edited" value="emlvcGE7U1VSRkFDRTsyMDI0LTA5LTI2OyIxMTo1Mzo0NyAiOzE7emlvcGE7U1VSRkFDRTsyMDI0LTA5LTI2OyIxMTozNjo0MiAiO0Zsb3dfNElEX1Bhc3NlcmluaV9RdWFkcmF0by5mcHJnOzc4OTg="/>
+        <attribute name="edited" value="emlvcGE7U1VSRkFDRTsyMDI0LTA5LTI2OyIxMTo1NDoyMCAiOzE7MjM2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base" type="Real" array="False" size=""/>
+            <declare name="altezza" type="Real" array="False" size=""/>
+            <declare name="perimetro" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <assign variable="base" expression="0"/>
+            <assign variable="altezza" expression="0"/>
+            <assign variable="perimetro" expression="0"/>
+            <assign variable="area" expression="0"/>
+            <output expression="&quot;inserisci la base del rettangolo &quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;inserisci l'altezza del rettangolo &quot;" newline="True"/>
+            <input variable="altezza"/>
+            <assign variable="area" expression="base* altezza"/>
+            <output expression="&quot;la misura dell'area e' &quot; &amp;area" newline="True"/>
+            <assign variable="perimetro" expression="(base * 2) + (altezza * 2)"/>
+            <output expression="&quot;la misura del perimetro e' &quot; &amp;perimetro" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
