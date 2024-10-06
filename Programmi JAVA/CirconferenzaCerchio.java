@@ -27,7 +27,7 @@ public class CirconferenzaCerchio {
         circonferenza = (3.14 * 2) * raggio;
 
         System.out.println("La circonferenza e'  " + circonferenza);
-
+        input.close();
     }
 
 }
