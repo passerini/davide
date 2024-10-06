@@ -14,16 +14,17 @@ public class EtaMedia {
         float eta2;
         float eta3;
         float media;
-        Scanner input = new Scanner(System.in);
+        
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.println("inserisci l'eta della prima persona");
+            eta1 = input.nextFloat();
 
-        System.out.println("inserisci l'eta della prima persona");
-        eta1 = input.nextFloat();
+            System.out.println("inserisci l'eta della seconda persona");
+            eta2 = input.nextFloat();
 
-        System.out.println("inserisci l'eta della seconda persona");
-        eta2 = input.nextFloat();
-
-        System.out.println("inserisci l'eta della terza persona");
-        eta3 = input.nextFloat();
+            System.out.println("inserisci l'eta della terza persona");
+            eta3 = input.nextFloat();
+        }
 
         media = (eta1 + eta2 + eta3) / 3;
 
