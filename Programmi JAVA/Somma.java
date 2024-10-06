@@ -4,7 +4,7 @@ public class Somma {
     public static void main(String[] args) {
         // Crea un'istanza di Scanner per leggere l'input da tastiera
         Scanner scanner = new Scanner(System.in);
-        
+
         try {
             // Chiede il primo numero reale
             System.out.print("Inserisci il primo numero reale: ");

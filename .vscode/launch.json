@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SimpleWindowApp",
+      "request": "launch",
+      "mainClass": "SimpleWindowApp",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
       "name": "Crescente3Num",
       "request": "launch",
       "mainClass": "Crescente3Num",
