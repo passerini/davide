@@ -3,6 +3,90 @@
   "configurations": [
     {
       "type": "java",
+      "name": "VettoreOrdinato",
+      "request": "launch",
+      "mainClass": "VettoreOrdinato",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "LunghezzaMatrice",
+      "request": "launch",
+      "mainClass": "LunghezzaMatrice",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "VettoreCasuale",
+      "request": "launch",
+      "mainClass": "VettoreCasuale",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "Matrice",
+      "request": "launch",
+      "mainClass": "Matrice",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "Vettore",
+      "request": "launch",
+      "mainClass": "Vettore",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "Voti10Studente",
+      "request": "launch",
+      "mainClass": "Voti10Studente",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "Equazione",
+      "request": "launch",
+      "mainClass": "Equazione",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "MoltiplicazioneSomma",
+      "request": "launch",
+      "mainClass": "MoltiplicazioneSomma",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "DivisioneSottrazione",
+      "request": "launch",
+      "mainClass": "DivisioneSottrazione",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "BigliettoCinema",
+      "request": "launch",
+      "mainClass": "BigliettoCinema",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "Semaforo2",
+      "request": "launch",
+      "mainClass": "Semaforo2",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "Semaforo",
+      "request": "launch",
+      "mainClass": "Semaforo",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
       "name": "SimpleWindowApp",
       "request": "launch",
       "mainClass": "SimpleWindowApp",
