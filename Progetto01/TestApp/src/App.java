@@ -10,7 +10,8 @@ public class App {
 
 
         Somma somma = new Somma(numeroUno, numeroDue);
-        System.out.println(somma);
+        
+        System.out.println("La somma è: " + somma.getTotale());
 
     }
 }
