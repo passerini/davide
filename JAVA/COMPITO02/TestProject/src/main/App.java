@@ -1,4 +1,4 @@
-
+package main;
 import data.Somma;
 
 public class App {
