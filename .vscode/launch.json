@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ProgettoRettangolo",
+      "request": "launch",
+      "mainClass": "ProgettoRettangolo.ProgettoRettangolo",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "VotiPagella2",
+      "request": "launch",
+      "mainClass": "VotiPagella2",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "VotiPagella",
+      "request": "launch",
+      "mainClass": "VotiPagella",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "MagMin7",
+      "request": "launch",
+      "mainClass": "MagMin7",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "Radice_Quadrata",
+      "request": "launch",
+      "mainClass": "Radice_Quadrata",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
+      "name": "Casuale_76_99",
+      "request": "launch",
+      "mainClass": "Casuale_76_99",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
       "name": "VettoreOrdinato",
       "request": "launch",
       "mainClass": "VettoreOrdinato",

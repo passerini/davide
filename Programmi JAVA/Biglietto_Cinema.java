@@ -12,13 +12,12 @@ Autore : Passerini Davide
 
 import java.util.Scanner;
 
-public class BigliettoCinema {
+public class Biglietto_Cinema {
 
     public static void main(String[] args) {
 
-        int biglietto;
-        int eta;
         Scanner input = new Scanner(System.in);
+        int eta;
 
         System.out.println("inserisci l'eta della persona");
         eta = input.nextInt();
