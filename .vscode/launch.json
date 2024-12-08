@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AreaRettangolo",
+      "request": "launch",
+      "mainClass": "AreaRettangolo",
+      "projectName": "davide_2e126b0b"
+    },
+    {
+      "type": "java",
       "name": "ProgettoRettangolo",
       "request": "launch",
       "mainClass": "ProgettoRettangolo.ProgettoRettangolo",
